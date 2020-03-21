@@ -41,7 +41,7 @@ div input {
   cursor: pointer;
   outline: none;
   color: white;
-  background-image: linear-gradient(to top, #8a8a8a 50%, #737373 50%);
+  background-image: linear-gradient(to top, #838383 50%, #737373 50%);
 }
 
 .nav-links button img {
@@ -57,17 +57,18 @@ div input {
   align-self: center;
   flex: auto;
   background-image: url(/images/search-img.png),
-    linear-gradient(to top, #8a8a8a 50%, #737373 50%);
+    linear-gradient(to top, #838383 50%, #737373 50%);
   background-repeat: no-repeat;
   width: 120px;
   height: 22px;
   cursor: text;
-  background-position: left;
+  background-position: 0 0;
   color: rgb(241, 241, 241);
   padding-left: 20px;
   box-shadow: inset 0 2px 1px rgb(53, 52, 52);
-  border-radius: 20px;
-  transition: all 0.4s;
+  border-radius: 12px;
+  transition: all 0.3s;
+  text-indent: 3%;
 }
 
 input:focus {
@@ -75,7 +76,7 @@ input:focus {
   background-image: url(/images/search-im2.png),
     linear-gradient(to top, #ffffff 50%, #ffffff 50%);
   background-repeat: no-repeat;
-  background-position: 5px 50%;
+  background-position: 8px 60%;
   color: rgb(83, 83, 83);
   text-indent: 3%;
 }
