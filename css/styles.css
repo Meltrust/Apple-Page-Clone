@@ -56,7 +56,7 @@ div input {
 .search-box-area {
   align-self: center;
   flex: auto;
-  background-image: url(/images/search-img.svg),
+  background-image: url(/images/search-img.png),
     linear-gradient(to top, #8a8a8a 50%, #737373 50%);
   background-repeat: no-repeat;
   width: 120px;
@@ -72,7 +72,7 @@ div input {
 
 input:focus {
   width: 200px;
-  background-image: url(/images/search-im2.svg),
+  background-image: url(/images/search-im2.png),
     linear-gradient(to top, #ffffff 50%, #ffffff 50%);
   background-repeat: no-repeat;
   background-position: 5px 50%;
@@ -133,6 +133,5 @@ button:hover {
 }
 
 .shopping-links-container figure img {
-  max-height: 100%;
   max-width: 100%;
 }
