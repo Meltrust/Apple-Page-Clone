@@ -11,7 +11,7 @@ main {
 }
 .main-header {
   z-index: 1;
-  top: 3vh;
+  top: 2vh;
   height: 36px;
   max-width: 70%;
   margin: 0 auto;
@@ -100,7 +100,7 @@ button:hover {
   background-position: 50% 90%;
   background-size: cover;
   min-width: 100%;
-  min-height: 69vh;
+  min-height: 67vh;
 }
 
 .main-article-content-container {
@@ -131,6 +131,7 @@ button:hover {
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 100%;
   gap: 3px;
+  overflow: hidden;
 }
 
 .shopping-links-container figure img {
