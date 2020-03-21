@@ -1,6 +1,12 @@
+/* prettier-ignore */
 body {
   padding: 0;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+  font-family:
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Helvetica,
+    Arial,
+    Verdana,
     sans-serif;
   min-height: 830px;
   max-height: 1472px;
@@ -9,6 +15,7 @@ body {
 main {
   height: 100vh;
 }
+
 .main-header {
   z-index: 1;
   top: 2vh;
@@ -53,10 +60,13 @@ div input {
 .search-box {
   display: flex;
 }
+
+/* prettier-ignore */
 .search-box-area {
   align-self: center;
   flex: auto;
-  background-image: url(/images/search-img.png),
+  background-image:
+    url(/images/search-img.png),
     linear-gradient(to top, #838383 50%, #737373 50%);
   background-repeat: no-repeat;
   width: 120px;
@@ -71,10 +81,12 @@ div input {
   text-indent: 3%;
 }
 
+/* prettier-ignore */
 input:focus {
   width: 200px;
-  background-image: url(/images/search-im2.png),
-    linear-gradient(to top, #ffffff 50%, #ffffff 50%);
+  background-image:
+    url(/images/search-im2.png),
+    linear-gradient(to top, #fff 50%, #fff 50%);
   background-repeat: no-repeat;
   background-position: 8px 60%;
   color: rgb(83, 83, 83);
@@ -150,6 +162,7 @@ a {
   text-decoration: none;
   color: #08c;
 }
+
 .main-footer-container {
   display: flex;
   justify-content: space-between;
@@ -160,6 +173,11 @@ a {
 }
 
 .footer-links-container li {
+  padding: 0 4px;
+  border-right: 1px solid #ccc;
+}
+
+.copyright-links li {
   padding: 0 4px;
   border-right: 1px solid #ccc;
 }
@@ -176,11 +194,6 @@ a {
 .copyright-links {
   display: flex;
   padding: 0 4px;
-}
-
-.copyright-links li {
-  padding: 0 4px;
-  border-right: 1px solid #ccc;
 }
 
 .copyright-links li:last-child {
