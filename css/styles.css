@@ -8,9 +8,9 @@ body {
 
 .main-header {
   z-index: 1;
-  top: 18px;
+  top: 3vh;
   height: 36px;
-  width: 980px;
+  max-width: 70%;
   margin: 0 auto;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
@@ -81,4 +81,41 @@ button:hover {
   background-image: none;
   background-color: #494949;
   text-align: center;
+}
+
+.main-article {
+  top: -38px;
+  position: relative;
+  min-width: 100%;
+}
+
+.main-article-content {
+  background-image: url(/images/main-background.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% 90%;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 70vh;
+}
+
+.main-article-content-container {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 980px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.primary-heading {
+  height: 95px;
+}
+
+.third-heading {
+  margin-top: 17px;
 }
