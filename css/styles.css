@@ -6,6 +6,9 @@ body {
   max-height: 1472px;
 }
 
+main {
+  height: 100vh;
+}
 .main-header {
   z-index: 1;
   top: 3vh;
@@ -118,4 +121,18 @@ button:hover {
 
 .third-heading {
   margin-top: 17px;
+}
+
+.shopping-links-container {
+  position: relative;
+  top: -35px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  gap: 3px;
+}
+
+.shopping-links-container figure img {
+  max-height: 100%;
+  max-width: 100%;
 }
