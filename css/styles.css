@@ -31,7 +31,7 @@ main {
 }
 
 .nav-links button,
-div,
+.search-box,
 div input {
   flex: auto;
   border: 0;
@@ -99,7 +99,7 @@ button:hover {
   background-position: 50% 90%;
   background-size: cover;
   min-width: 100%;
-  min-height: 70vh;
+  min-height: 69vh;
 }
 
 .main-article-content-container {
@@ -134,4 +134,57 @@ button:hover {
 
 .shopping-links-container figure img {
   max-width: 100%;
+}
+
+.main-footer {
+  font-size: 0.7334em;
+  line-height: 1.2;
+  color: #6e6e6e;
+  margin: -27px auto auto auto;
+  max-width: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: #08c;
+}
+.main-footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links-container {
+  display: flex;
+}
+
+.footer-links-container li {
+  padding: 0 4px;
+  border-right: 1px solid #ccc;
+}
+
+.footer-links-container li:last-child {
+  border: none;
+}
+
+.copyright-container {
+  display: flex;
+  margin-top: 5px;
+}
+
+.copyright-links {
+  display: flex;
+  padding: 0 4px;
+}
+
+.copyright-links li {
+  padding: 0 4px;
+  border-right: 1px solid #ccc;
+}
+
+.copyright-links li:last-child {
+  border: none;
+}
+
+.american-flag {
+  border-right: none;
 }
