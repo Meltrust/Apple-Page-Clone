@@ -4,7 +4,7 @@ Using backgrounds and gradients with a clone of an Apple webpage using HTML5 and
 
 ![screenshot](./app_screenshot.png)
 
-This was a solo project, the goal is to practice backgrounds, gradients and element positioning while using the git flow.
+This was a solo project, the goal was to practice backgrounds, gradients and element positioning while using the git flow.
 
 ## Built With
 
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - [@Meltrust](https://github.com/Meltrust)
 
