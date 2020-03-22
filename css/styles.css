@@ -66,7 +66,7 @@ div input {
   align-self: center;
   flex: auto;
   background-image:
-    url(images/search-img.png),
+    url("images/search-img.png"),
     linear-gradient(to top, #838383 50%, #737373 50%);
   background-repeat: no-repeat;
   width: 120px;
@@ -85,7 +85,7 @@ div input {
 input:focus {
   width: 200px;
   background-image:
-    url(images/search-im2.png),
+    url("images/search-im2.png"),
     linear-gradient(to top, #fff 50%, #fff 50%);
   background-repeat: no-repeat;
   background-position: 8px 60%;
@@ -106,7 +106,7 @@ button:hover {
 }
 
 .main-article-content {
-  background-image: url(images/main-background.png);
+  background-image: url("images/main-background.png");
   position: relative;
   background-repeat: no-repeat;
   background-position: 50% 90%;
