@@ -1,0 +1,205 @@
+/* prettier-ignore */
+body {
+  padding: 0;
+  font-family:
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Helvetica,
+    Arial,
+    Verdana,
+    sans-serif;
+  min-height: 830px;
+  max-height: 1472px;
+}
+
+main {
+  height: 100vh;
+}
+
+.main-header {
+  z-index: 1;
+  top: 2vh;
+  height: 36px;
+  max-width: 70%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  overflow: hidden;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: inherit;
+}
+
+.nav-links button,
+.search-box,
+div input {
+  flex: auto;
+  border: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(126, 126, 126);
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-image: linear-gradient(to top, #838383 50%, #737373 50%);
+}
+
+.nav-links button img {
+  vertical-align: middle;
+  height: 20px;
+  border-style: none;
+}
+
+.search-box {
+  display: flex;
+}
+
+/* prettier-ignore */
+.search-box-area {
+  align-self: center;
+  flex: auto;
+  background-image:
+    url(cssimg/searchimg.svg),
+    linear-gradient(to top, #838383 50%, #737373 50%);
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 22px;
+  cursor: text;
+  background-position: 0 0;
+  color: rgb(241, 241, 241);
+  padding-left: 20px;
+  box-shadow: inset 0 2px 1px rgb(53, 52, 52);
+  border-radius: 12px;
+  transition: all 0.3s;
+  text-indent: 3%;
+}
+
+/* prettier-ignore */
+input:focus {
+  width: 200px;
+  background-image:
+    url(cssimg/searchim2.svg),
+    linear-gradient(to top, #fff 50%, #fff 50%);
+  background-repeat: no-repeat;
+  background-position: 8px 60%;
+  color: rgb(83, 83, 83);
+  text-indent: 3%;
+}
+
+button:hover {
+  background-image: none;
+  background-color: #494949;
+  text-align: center;
+}
+
+.main-article {
+  top: -38px;
+  position: relative;
+  min-width: 100%;
+}
+
+.main-article-content {
+  background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% 90%;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 67vh;
+}
+
+.main-article-content-container {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 980px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.primary-heading {
+  height: 95px;
+}
+
+.third-heading {
+  margin-top: 17px;
+}
+
+.shopping-links-container {
+  position: relative;
+  top: -35px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  gap: 3px;
+  overflow: hidden;
+}
+
+.shopping-links-container figure img {
+  max-width: 100%;
+}
+
+.main-footer {
+  font-size: 0.7334em;
+  line-height: 1.2;
+  color: #6e6e6e;
+  margin: -27px auto auto auto;
+  max-width: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.main-footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links-container {
+  display: flex;
+}
+
+.footer-links-container li {
+  padding: 0 4px;
+  border-right: 1px solid #ccc;
+}
+
+.copyright-links li {
+  padding: 0 4px;
+  border-right: 1px solid #ccc;
+}
+
+.footer-links-container li:last-child {
+  border: none;
+}
+
+.copyright-container {
+  display: flex;
+  margin-top: 5px;
+}
+
+.copyright-links {
+  display: flex;
+  padding: 0 4px;
+}
+
+.copyright-links li:last-child {
+  border: none;
+}
+
+.american-flag {
+  border-right: none;
+}

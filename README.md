@@ -1,16 +1,16 @@
-# Project Name
+# HTML5 & CSS3 Apple homepage clone
 
-> One paragraph statement about the project.
+Using backgrounds and gradients with a clone of an Apple webpage using HTML5 and CSS3. Made use of Flexbox and Grid display properties.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This was a solo project, the goal was to practice backgrounds, gradients and element positioning while using the git flow.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML 5
+- CSS3
+- Flexbox & Grid display properties
 
 ## Live Demo
 
@@ -19,39 +19,16 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Clone the project unto your local machine.
+- Navigate into `index.html` file and run on the browser.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- [@Meltrust](https://github.com/Meltrust)
 
 ## 🤝 Contributing
 
