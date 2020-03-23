@@ -14,7 +14,7 @@ This was a solo project, the goal was to practice backgrounds, gradients and ele
 
 ## Live Demo
 
-[Click to view the finished project!](https://meltrust.github.io/Apple-Page-Clone/)
+[Click to view the finished page!](https://meltrust.github.io/Apple-Page-Clone/)
 
 
 ## Getting Started
