@@ -23,12 +23,18 @@ To get a local copy up and running follow these simple example steps.
 - Clone the project unto your local machine.
 - Navigate into `index.html` file and run on the browser.
 
+## Future Features:
+
+- Implement responsive design.
+
 
 ## Authors
 
 👤 **Author**
 
 - [@Meltrust](https://github.com/Meltrust)
+- Linkedin: https://www.linkedin.com/in/meltrust
+- Contact me: original.mtapia@outlook.com
 
 ## 🤝 Contributing
 
